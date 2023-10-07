@@ -1,0 +1,271 @@
+html,
+body,
+div,
+form,
+fieldset,
+legend,
+caption,
+label,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre {
+  font-size: 100%;
+  font-weight: normal;
+
+  margin: 0;
+  padding: 0;
+
+  vertical-align: baseline;
+
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  vertical-align: top;
+}
+
+img {
+  border: 0;
+}
+
+body {
+  color: white;
+  -webkit-overflow-scrolling: touch;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    55deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+
+a {
+  color: rgb(170, 26, 195);
+  text-shadow: 0 0 1px rgba(228, 73, 255, 0.5);
+}
+
+a:hover {
+  color: rgb(217, 0, 255);
+}
+
+.prickly-pears {
+  max-width: 250px;
+}
+
+.collapsible {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 5rem;
+}
+
+.collapsible h2 {
+  margin-bottom: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.page {
+  padding: 5rem 0;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  font-size: 1.4rem;
+  padding-top: 3rem;
+}
+
+html,
+body {
+  font-family: Gothic A1, Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3.7008972249999985em;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 6rem;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 3.218171499999999em;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 6rem;
+  margin-bottom: 3rem;
+}
+
+h3 {
+  font-size: 2.798409999999999em;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 3rem;
+  margin-bottom: 3rem;
+}
+
+h4 {
+  font-size: 2.4334em;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 3rem;
+  margin-bottom: 3rem;
+  color: #000;
+}
+
+h5 {
+  font-size: 2.1159999999999997em;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 3rem;
+  margin-bottom: 3rem;
+}
+
+h6 {
+  font-size: 1.8399999999999999em;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 3rem;
+  margin-bottom: 3rem;
+}
+
+p {
+  font-size: 1.6em;
+  font-style: normal;
+  letter-spacing: 0em;
+  line-height: 3rem;
+  margin-bottom: 3rem;
+}
+
+ul {
+  font-size: 1.6em;
+  font-style: normal;
+  letter-spacing: 0em;
+  margin-bottom: 3rem;
+}
+
+li {
+  margin: 1rem 0;
+}
+
+@media screen and (min-width: 960px) {
+  html,
+  body {
+    font-size: 10px;
+  }
+
+  .collapsible {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 6.103515625em;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0em;
+    line-height: 7.5rem;
+    margin-bottom: 3rem;
+  }
+
+  h2 {
+    font-size: 4.8828125em;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0em;
+    line-height: 6rem;
+    margin-bottom: 3rem;
+  }
+
+  h3 {
+    font-size: 3.90625em;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0em;
+    line-height: 6rem;
+    margin-bottom: 3rem;
+  }
+
+  h4 {
+    font-size: 3.125em;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0em;
+    line-height: 6rem;
+    margin-bottom: 3rem;
+  }
+
+  h5 {
+    font-size: 2.5em;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0em;
+    line-height: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  h6 {
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0em;
+    line-height: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  p {
+    font-size: 1.6em;
+    font-style: normal;
+    letter-spacing: 0em;
+    line-height: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  ul {
+    font-size: 1.6em;
+    font-style: normal;
+    letter-spacing: 0em;
+  }
+
+  li {
+    margin: 1rem 0;
+  }
+}
